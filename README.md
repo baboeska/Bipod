@@ -1,4 +1,4 @@
-Artificial Intelligence Bulk Image Processor
+Artificial Intelligence Bulk Image Processor with Object Detection
 
 Invariably requires Python VENV with unique configuration per hardware/model used.
 
