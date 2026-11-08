@@ -2,9 +2,7 @@ Artificial Intelligence Bulk Image Processor with Object Detection
 
 Invariably requires Python VENV with unique configuration per hardware/model used.
 
-Licenses used may include Apache 2.0, AGPL 3.0, RKNN-Toolkit License.
-
-Share and share alike, and do good things.
+Licenses used may include Apache 2.0, AGPL 3.0, RKNN-Toolkit License, share and share alike, and do good things.
 
 Usage: python %program -i=/yourimages -o=/sortedimages -m="model"
 
