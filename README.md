@@ -22,3 +22,6 @@ https://github.com/baboeska/Raspberry-Pi-Yolov26n-batch-image-object-detector
 
 Rockchip RK3568B
 https://github.com/baboeska/Rockchip-NPU-RK3568-object-detector-script
+
+
+AI Bipod TM
