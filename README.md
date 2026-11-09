@@ -20,7 +20,7 @@ https://github.com/baboeska/bipod_raspberry
 
 
 Rockchip RK3568B
-https://github.com/baboeska/Bipod-rk3568
+https://github.com/baboeska/bipod-yolo-rknn
 
 
 AI Bipod TM
