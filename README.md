@@ -19,8 +19,6 @@ Batch-sort large image libraries into folders by detected object class.
 
 Backends
 
-Backends
-
 NVIDIA GPU: bipodrtx — RF-DETR + TensorRT https://github.com/baboeska/bipodrtx
 
 Intel/AMD CPU (AVX2): bipod-yolo26s-openvino — YOLO26s + OpenVINO https://github.com/baboeska/bipod-yolo26s-openvino
@@ -31,11 +29,11 @@ Rockchip RK3568: bipod-yolo-rknn — YOLO11s + RKNN https://github.com/baboeska/
 
 Known pitfalls
 
-    OpenVINO: point --model at the exported directory, not the .xml file. Export with nms=False to avoid the mask-shape error.
+OpenVINO: point --model at the exported directory, not the .xml file. Export with nms=False to avoid the mask-shape error.
 
-    TensorRT: rebuild the .engine on the machine that will run it — engines are GPU-specific.
+TensorRT: rebuild the .engine on the machine that will run it — engines are GPU-specific.
 
-    WSL2: keep your image library on the native Linux filesystem, not /mnt/. On a USB drive mounted through Windows, throughput can drop 10–16×.
+WSL2: keep your image library on the native Linux filesystem, not /mnt/. On a USB drive mounted through Windows, throughput can drop 10–16×.
 
 Requirements
 
