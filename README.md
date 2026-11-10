@@ -3,7 +3,6 @@
 **Artificial Intelligence Bulk Image Processor for Object Detection**
 
 Batch-sort large image libraries into folders by detected object class.
-One script family, four backends, tested on real hardware.
 
 ## Performance
 
