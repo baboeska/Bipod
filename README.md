@@ -16,19 +16,19 @@ One script family, four backends, tested on real hardware.
 
 ## Usage
 
-python bipod-*.py -i /your/images -o /sorted/images -m model
+    python bipod-*.py -i /your/images -o /sorted/images -m model
 
 Backends
 
 Backends
 
-    NVIDIA GPU: bipodrtx — RF-DETR + TensorRT https://github.com/baboeska/bipodrtx
+NVIDIA GPU: bipodrtx — RF-DETR + TensorRT https://github.com/baboeska/bipodrtx
 
-    Intel/AMD CPU (AVX2): bipod-yolo26s-openvino — YOLO26s + OpenVINO https://github.com/baboeska/bipod-yolo26s-openvino
+Intel/AMD CPU (AVX2): bipod-yolo26s-openvino — YOLO26s + OpenVINO https://github.com/baboeska/bipod-yolo26s-openvino
 
-    Raspberry Pi 4/5: bipod_raspberry — YOLO26n + OpenVINO https://github.com/baboeska/bipod_raspberry
+Raspberry Pi 4/5: bipod_raspberry — YOLO26n + OpenVINO https://github.com/baboeska/bipod_raspberry
 
-    Rockchip RK3568: bipod-yolo-rknn — YOLO11s + RKNN https://github.com/baboeska/bipod-yolo-rknn
+Rockchip RK3568: bipod-yolo-rknn — YOLO11s + RKNN https://github.com/baboeska/bipod-yolo-rknn
 
 Known pitfalls
 
