@@ -12,7 +12,7 @@ https://github.com/baboeska/bipodrtx
 
 
 Intel/AMD CPU with AVX2 support:
-https://github.com/baboeska/bipod-yolo-openvino
+https://github.com/baboeska/bipod-yolo26s-openvino
 
 
 Raspberry Pi 4/5:
