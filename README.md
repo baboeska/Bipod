@@ -8,11 +8,11 @@ Batch-sort large image libraries into folders by detected object class.
 
 | Platform | Model | Throughput |
 |---|---|---|
-| NVIDIA RTX 4060M (8GB) | RF-DETR Large + TensorRT | **60–80 img/s** |
-| Raspberry Pi 4/5 (Untested) | YOLO26n + OpenVINO | ~10 FPS estimated |
-| Rockchip RK3568 (0.8 TOPS NPU) | YOLO11s + RKNN | ~6.5 img/s |
-| AMD Ryzen 4650U | YOLO26s + OpenVINO | ~6.5 img/s |
-| Core i9 13900H | YOLO26s + OpenVINO | 10-13 img/s |
+| (NVIDIA RTX 4060M 8GB)https://github.com/baboeska/bipod-rtx | RF-DETR Large + TensorRT | **60–80 img/s** |
+| (Raspberry Pi 4/5)https://github.com/baboeska/bipod-pi Untested | YOLO26n + OpenVINO | ~10 FPS estimated |
+| (Rockchip RK3568 (0.8 TOPS NPU)https://github.com/baboeska/bipod-yolo-rknn | YOLO11s + RKNN | ~6.5 img/s |
+| (AMD Ryzen 4650)https://github.com/baboeska/bipod-yolo26s-openvino | YOLO26s + OpenVINO | ~6.5 img/s |
+| (Core i9 13900H)https://github.com/baboeska/bipod-yolo26s-openvino | YOLO26s + OpenVINO | 10-13 img/s |
 
 ## Usage
 
