@@ -12,6 +12,7 @@ Batch-sort large image libraries into folders by detected object class.
 | Raspberry Pi 4/5 (Untested) | YOLO26n + OpenVINO | ~10 FPS estimated |
 | Rockchip RK3568 (0.8 TOPS NPU) | YOLO11s + RKNN | ~6.5 img/s |
 | AMD Ryzen 4650U | YOLO26s + OpenVINO | ~6.5 img/s |
+| Core i9 13900H | YOLO26s + OpenVINO | 10-13 img/s |
 
 ## Usage
 
