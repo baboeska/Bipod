@@ -19,11 +19,11 @@ Batch-sort large image libraries into folders by detected object class.
 
 Backends
 
-NVIDIA GPU: bipodrtx — RF-DETR + TensorRT https://github.com/baboeska/bipodrtx
+NVIDIA GPU: bipodrtx — RF-DETR + TensorRT https://github.com/baboeska/bipod-rtx
 
 Intel/AMD CPU (AVX2): bipod-yolo26s-openvino — YOLO26s + OpenVINO https://github.com/baboeska/bipod-yolo26s-openvino
 
-Raspberry Pi 4/5: bipod_raspberry — YOLO26n + OpenVINO https://github.com/baboeska/bipod_raspberry
+Raspberry Pi 4/5: bipod_raspberry — YOLO26n + OpenVINO https://github.com/baboeska/bipod-pi
 
 Rockchip RK3568: bipod-yolo-rknn — YOLO11s + RKNN https://github.com/baboeska/bipod-yolo-rknn
 
