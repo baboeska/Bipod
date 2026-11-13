@@ -44,7 +44,7 @@ Requirements
 
 Python 3, plus tqdm, opencv-python, and backend-specific packages (see each sub-repo).
 
-If you get stuck, ask your AI buddy. DeepSeek, ChatGPT, and Google Search AI were all very helpful in making this.
+If you get stuck, ask your AI buddy. DeepSeek, ChatGPT, Gemma4 and Google Search AI were all very helpful in making this.
 License
 
 Mixed licences: Apache 2.0, AGPL 3.0, RKNN-Toolkit License.
