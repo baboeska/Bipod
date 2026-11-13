@@ -4,22 +4,6 @@
 
 Batch-sort large image libraries into folders by detected object class.
 
-## Performance
-
-| Platform | Model | Throughput |
-|---|---|---|
-| NVIDIA RTX 4060M 8GB| RF-DETR Large + TensorRT | **60–80 img/s** |
-| Raspberry Pi 4/5 Untested | YOLO26n + OpenVINO | ~10 FPS estimated |
-| Rockchip RK3568 (0.8 TOPS NPU) | YOLO11s + RKNN | ~6.5 img/s |
-| AMD Ryzen 4650U | YOLO26s + OpenVINO | ~6.5 img/s |
-| Core i9 13900H | YOLO26s + OpenVINO | 10-13 img/s |
-
-## Usage
-
-    python bipod-*.py -i /your/images -o /sorted/images -m model
-
-Backends
-
 NVIDIA GPU: bipod-rtx — RF-DETR + TensorRT https://github.com/baboeska/bipod-rtx
 
 Intel/AMD CPU (AVX2): bipod-yolo26s-openvino — YOLO26s + OpenVINO https://github.com/baboeska/bipod-yolo26s-openvino
@@ -27,6 +11,23 @@ Intel/AMD CPU (AVX2): bipod-yolo26s-openvino — YOLO26s + OpenVINO https://gith
 Raspberry Pi 4/5: bipo-pi — YOLO26n + OpenVINO https://github.com/baboeska/bipod-pi
 
 Rockchip RK3568: bipod-yolo-rknn — YOLO11s + RKNN https://github.com/baboeska/bipod-yolo-rknn
+
+
+## Performance
+
+| Platform | Model | Throughput | Resize | Tile |
+|---|---|---|---|---|
+| NVIDIA RTX 4060M 8GB| RF-DETR Large + TensorRT | **60–80 img/s** | 15-25 img/s |
+| Raspberry Pi 4/5 Untested | YOLO26n + OpenVINO | ~10 FPS estimated | 3-5 img/s estimated|
+| Rockchip RK3568 (0.8 TOPS NPU) | YOLO11s + RKNN | ~6.5 img/s | 2-3 img/s |
+| AMD Ryzen 4650U | YOLO26s + OpenVINO | ~6.5 img/s | 2-5 img/s |
+| Core i9 13900H | YOLO26s + OpenVINO | 10-13 img/s | 4-8 img/s |
+
+## Usage
+
+    python bipod-*.py -i /your/images -o /sorted/images -m model
+
+
 
 Known pitfalls
 
