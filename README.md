@@ -18,8 +18,8 @@ Rockchip RK3568: bipod-yolo-rknn — YOLO11s + RKNN https://github.com/baboeska/
 | Platform | Model | Throughput | Resize | Tile |
 |---|---|---|---|---|
 | NVIDIA RTX 4060M 8GB| RF-DETR Large + TensorRT | **60–80 img/s** | 15-25 img/s |
-| Raspberry Pi 4/5 Untested | YOLO26n + OpenVINO | ~10 FPS estimated | 3-5 img/s estimated|
-| Rockchip RK3568 (0.8 TOPS NPU) | YOLO11s + RKNN | ~6.5 img/s | 2-3 img/s |
+| Raspberry Pi 4/5 Untested | YOLO26n + OpenVINO | ~10 FPS estimated | Soon |
+| Rockchip RK3568 (0.8 TOPS NPU) | YOLO11s + RKNN | ~6.5 img/s | Soon |
 | AMD Ryzen 4650U | YOLO26s + OpenVINO | ~6.5 img/s | 2-5 img/s |
 | Core i9 13900H | YOLO26s + OpenVINO | 10-13 img/s | 4-8 img/s |
 
