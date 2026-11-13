@@ -4,6 +4,8 @@
 
 Batch-sort large image libraries into folders by detected object class.
 
+Please read readme in release zip file.
+
 NVIDIA GPU: bipod-rtx — RF-DETR + TensorRT https://github.com/baboeska/bipod-rtx
 
 Intel/AMD CPU (AVX2): bipod-yolo26s-openvino — YOLO26s + OpenVINO https://github.com/baboeska/bipod-yolo26s-openvino
