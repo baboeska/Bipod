@@ -25,7 +25,7 @@ Rockchip RK3568: bipod-yolo-rknn — YOLO11s + RKNN https://github.com/baboeska/
 
 | Raspberry Pi 4/5 Untested | YOLO26n + OpenVINO | ~10 FPS estimated | Soon |
 
-| Rockchip RK3568 (0.8 TOPS NPU) | YOLO11s + RKNN | ~6.5 img/s | Soon |
+| Rockchip RK3568 (0.8 TOPS NPU) | YOLO11s + RKNN | ~6.5 img/s | ~1-1.5 img/s |
 
 
 ## Usage
